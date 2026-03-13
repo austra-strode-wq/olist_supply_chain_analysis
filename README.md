@@ -1,6 +1,10 @@
 # Olist Supply Chain Analysis
 Analysis of delivery performance and seller reliability across the Olist Brazilian e-commerce platform, identifying high-risk product categories and underperforming sellers to support operational decision-making.
+
+
 ![Olist Supply Chain Dashboard](dashboard.png)
+
+
 ## Business Problem
 **How reliable is the Olist supply chain, and which sellers and product categories are putting delivery performance at risk?**
 
