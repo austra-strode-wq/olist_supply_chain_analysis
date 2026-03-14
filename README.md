@@ -23,7 +23,7 @@ E-commerce dataset downloaded from Kaggle - overall minimal cleaning was needed,
 SQL used to data cleaning and analysis (SQL Server as the RDMS). PowerBI used for data visualisation/dashboard.
 ## Key Findings
 
-- large number of sellers (over 3K) across almost 100k orders, meaning dataset features a lot of small order sellers. For this reason, dashboard shows the lateness rate for largest sellers only. One seller really stood out - they were the 2nd largest by order count with over 10% lateness rating, would be worth looking into in a business sense.
+- the dataset features over 3,000 sellers fulfilling almost 100,000 orders - a high seller-to-order ratio indicating a fragmented marketplace dominated by low-volume sellers. Seller analysis was filtered to high-volume sellers only to surface meaningful performance insights. Notably, the second largest seller by order volume had a late delivery rate exceeding 10%, representing a significant operational risk worth investigating.
 - average delivery time from placing the purchase order to delivery is just over 11 days - quite a lot, even for a country the size of Brazil.
 - the biggest sellers by order amount have around 6-10% lateness rate. 
 - overall on-time delivery rate - 92.13%
